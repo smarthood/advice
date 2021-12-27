@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    line-height: 1.6;
+}
+body{
+    background: white;
+}
+.main ::-moz-selection{
+    background: chartreuse;
+    color: black;
+}
+.main ::selection{
+    background: chartreuse;
+    color: black;
+}
